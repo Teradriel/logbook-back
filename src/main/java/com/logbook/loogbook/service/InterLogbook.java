@@ -8,4 +8,8 @@ public interface InterLogbook {
 
     public List<Activities> getAll();
 
+    public Activities searchActivity(Long id);
+
+    public void deleteActivity(Long id);
+
 }
